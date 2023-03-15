@@ -1,5 +1,19 @@
 # CHANGELOG for `@apollo/gateway`
 
+## 2.4.0-alpha.2
+### Patch Changes
+
+
+- Refactor the internal implementation of selection sets used by the query planner to decrease the code complexity and ([#2387](https://github.com/apollographql/federation/pull/2387))
+  improve query plan generation performance in many cases.
+
+- Optimises query plan generation for parts of queries that can statically be known to not cross across subgraphs ([#2449](https://github.com/apollographql/federation/pull/2449))
+
+- Updated dependencies [[`260c357c`](https://github.com/apollographql/federation/commit/260c357c10b4cf560c66d11f85552036c2638b0b), [`09382e74`](https://github.com/apollographql/federation/commit/09382e74adf4648582c0bbd135fe433a9853c835), [`cab383b2`](https://github.com/apollographql/federation/commit/cab383b22d37bb6bc687b4d8cec6f5c22245f41f)]:
+  - @apollo/composition@2.4.0-alpha.2
+  - @apollo/federation-internals@2.4.0-alpha.2
+  - @apollo/query-planner@2.4.0-alpha.2
+
 ## 2.4.0-alpha.1
 ### Patch Changes
 

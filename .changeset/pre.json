@@ -11,11 +11,13 @@
     "@apollo/subgraph": "2.3.3"
   },
   "changesets": [
+    "curvy-balloons-flash",
     "dirty-phones-refuse",
     "forty-gifts-burn",
     "forty-hairs-flow",
-    "gentle-rockets-roll",
     "old-humans-try",
-    "shaggy-knives-exercise"
+    "shaggy-knives-exercise",
+    "thin-weeks-refuse",
+    "twenty-shirts-battle"
   ]
 }
