@@ -1,8 +1,0 @@
-/federation-2/*  /docs/federation/v2/federation-2/:splat
-/enterprise-guide/* /docs/enterprise-guide/:splat
-/core-concepts/ /docs/federation/implementing-services/
-/implementing-services/ /docs/federation/subgraphs/
-/managed-federation/advanced-topics/ /docs/federation/managed-federation/overview/
-/managed-federation/monitoring/ /docs/federation/performance/monitoring
-/docs/federation/api/apollo-federation/ /docs/federation/api/apollo-subgraph/
-/workbench/using-federation-2/ /docs/federation/v1/workbench/overview/
